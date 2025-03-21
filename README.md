@@ -24,7 +24,7 @@ Key Terms:
 - Ad Exchange: A digital marketplace where ad impressions are bought and sold.
 - Demand Side Platform (DSP): A platform used by advertisers to bid for and purchase ad impressions in real-time.
 - Bid Request: Information sent by the Ad Exchange to DSPs about an ad slot, including size, audience data, and more.
-- Bid Response: The DSPâ€™s reply to a bid request, including the bid price and ad creative if participating.
+- Bid Response: The DSP's reply to a bid request, including the bid price and ad creative if participating.
 - Auction: The process where the Ad Exchange determines the winner among all bid responses.
 - Impression event: The display of an ad to a user on a webpage or app.
 - Click event: The action taken by a user when they interact with an ad by selecting it.
@@ -43,7 +43,7 @@ In the first part of the problem, we were tasked with determining whether or not
 
 The first part was a classification task with our target variables:
 1) 'is_clk' representing whether the impression would result in a click, given the impression event.
-2) 'is_conv' representing whether the impression would result in a converion, given the impression event.
+2) 'is_conv' representing whether the impression would result in a conversion, given the impression event.
 
 We tried two models for this: LightGBM and ANNs, and the results of those models along with the model architectures are displayed in this repository.
 
